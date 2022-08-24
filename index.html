@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Web Development Examples 1.0</title>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -31,11 +32,32 @@
     </figure><small>10. This is a "default small element"</small><strong class="d-flex"></strong><strong>11. This is a "default bold element". Use &lt;br /&gt; &lt;br /&gt; to move the text "two keyboard Enter" clicks down. Example of &lt;br /&gt; =<br><br>Some info about the bold element from w3schools website = <br><br>Note: According to the HTML5 specification, the tag should be used as a LAST resort when no other tag is more appropriate. The specification states that headings should be denoted with the &lt;h1&gt; to &lt;h6&gt; tags, emphasized text should be denoted with the &lt;em&gt; tag, important text should be denoted with the &lt;strong&gt; tag, and marked/highlighted text should be denoted with the &lt;mark&gt; tag.<br><br>Tip: You can also use the following CSS to set bold text -&gt; "font-weight: bold;"<br><br></strong><em>12. This is a "default italic element" created by using " &lt;em&gt; then closing with &lt;/em&gt; "</em><span><br>13. This is a "default span element" created by using " &lt;span&gt; then closing with &lt;/span&gt; ". Some info about the span inline element from w3resource website = <br><br>-&gt; HTML span element is a container for holding other inline elements or content directly (text, image).<br><br>-&gt; Usually span element is used to group inline elements together to implement style (using id or class attributes) or language information or JavaScript DOM(using id or class attributes), when no other element is found suitable to form that group.<br><br>-&gt; The element can contain a piece of text or an image directly. So, when it is required to wrap a run of text (or an image) to be styled or manipulated and no other element is found suitable, the span is used.</span>
     <p>14. Example paragraph to demonstrate what's a "sup element"<sup>14. This is a "default sup element". It's useful for references to citations and footnotes</sup></p>
     <p>15. Example paragraph to demonstrate what's a "sub element"<sub>15. This is a "default sub element". Used to render small text with a lower baseline<br></sub><code>16. This is a "default code element". This element is used to show a short fragment of code.</code><br></p>
-    <p>17. A "default image" with no adjustments =<img src="/assets/img/HTML5%20Logo.png"></p>
-    <p>18. This is an "image" with width, height, and styling adjustments. The image has a "danger"/red rounded border, with a dark background that has a gradient on the "dark"/black background, and the image with the background has a large shadow surrounding the image to add effect. =<img class="bg-dark bg-gradient border rounded border-danger shadow-lg" src="/assets/img/CSS3%20Logo.png" width="150" height="150"></p>
-    <p>19. This is a "picture" element. A really good demonstration of how this element works can be seen on this w3schools website ( https://www.w3schools.com/html/html_images_picture.asp ), but its basically a highly versatile image element. You can have fallback images for different computer sizes/resolutions and etc. =&nbsp;<picture><img src="/assets/img/HTML5%20Picture%20Element.jpg"></picture>
+    <p>17. A "default image" with no adjustments =<img src="assets/img/HTML5%20Logo.png"></p>
+    <p>18. This is an "image" with width, height, and styling adjustments. The image has a "danger"/red rounded border, with a dark background that has a gradient on the "dark"/black background, and the image with the background has a large shadow surrounding the image to add effect. =<img class="bg-dark bg-gradient border rounded border-danger shadow-lg" src="assets/img/CSS3%20Logo.png" width="150" height="150"></p>
+    <p>19. This is a "picture" element. A really good demonstration of how this element works can be seen on this w3schools website ( https://www.w3schools.com/html/html_images_picture.asp ), but its basically a highly versatile image element. You can have fallback images for different computer sizes/resolutions and etc. =&nbsp;<picture><img src="assets/img/HTML5%20Picture%20Element.jpg"></picture>
     </p>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <p>20. This is a "default icon" element. Just add the name of the icon class to any inline HTML element. "&lt;i&gt;" and "&lt;span&gt;" elements are widely used to add icons. =&nbsp;<i class="fa fa-star"></i><br><br>-&gt;&nbsp;Glyphicons are not supported in Bootstrap 4.<br><br>-&gt;To use a set of icons you would also need to insert a certain line of code into your "&lt;head&gt; &lt;/head&gt;" area. You can find more information about how to use icons from different providers using this link = https://www.w3schools.com/icons/</p>
+    <p>21. This is an altered "icon" element that was imported from "http://www.w3.org/2000/svg". =&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="width: 55px;height: 55px;background: var(--bs-dark);color: var(--bs-light);box-shadow: 0px 0px 10px 5px var(--bs-blue);filter: contrast(120%) saturate(160%);">
+            <path d="M12 17C14.2091 17 16 15.2091 16 13H8C8 15.2091 9.79086 17 12 17Z" fill="currentColor"></path>
+            <path d="M10 10C10 10.5523 9.55228 11 9 11C8.44772 11 8 10.5523 8 10C8 9.44772 8.44772 9 9 9C9.55228 9 10 9.44772 10 10Z" fill="currentColor"></path>
+            <path d="M15 11C15.5523 11 16 10.5523 16 10C16 9.44772 15.5523 9 15 9C14.4477 9 14 9.44772 14 10C14 10.5523 14.4477 11 15 11Z" fill="currentColor"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z" fill="currentColor"></path>
+        </svg><br></p>
+    <p>22. This is a default "carousel" element.&nbsp; =&nbsp; &nbsp;<br></p>
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="width: 277.333px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/HTML5%20Logo.png" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/CSS3%20Logo.png" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/Javascript%20Logo.png" alt="Slide Image"></div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+        </ol>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
