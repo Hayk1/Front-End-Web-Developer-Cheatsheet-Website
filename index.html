@@ -34,16 +34,16 @@
     <p>15. Example paragraph to demonstrate what's a "sub element"<sub>15. This is a "default sub element". Used to render small text with a lower baseline<br></sub><code>16. This is a "default code element". This element is used to show a short fragment of code.</code><br></p>
     <p>17. A "default image" with no adjustments =<img src="assets/img/HTML5%20Logo.png"></p>
     <p>18. This is an "image" with width, height, and styling adjustments. The image has a "danger"/red rounded border, with a dark background that has a gradient on the "dark"/black background, and the image with the background has a large shadow surrounding the image to add effect. =<img class="bg-dark bg-gradient border rounded border-danger shadow-lg" src="assets/img/CSS3%20Logo.png" width="150" height="150"></p>
-    <p>19. This is a "picture" element. A really good demonstration of how this element works can be seen on this w3schools website ( https://www.w3schools.com/html/html_images_picture.asp ), but its basically a highly versatile image element. You can have fallback images for different computer sizes/resolutions and etc. =&nbsp;<picture><img src="assets/img/HTML5%20Picture%20Element.jpg"></picture>
+    <p>19. This is a "default picture" element. A really good demonstration of how this element works can be seen on this w3schools website ( https://www.w3schools.com/html/html_images_picture.asp ), but its basically a highly versatile image element. You can have fallback images for different computer sizes/resolutions and etc. =&nbsp;<picture><img src="assets/img/HTML5%20Picture%20Element.jpg"></picture>
     </p>
     <p>20. This is a "default icon" element. Just add the name of the icon class to any inline HTML element. "&lt;i&gt;" and "&lt;span&gt;" elements are widely used to add icons. =&nbsp;<i class="fa fa-star"></i><br><br>-&gt;&nbsp;Glyphicons are not supported in Bootstrap 4.<br><br>-&gt;To use a set of icons you would also need to insert a certain line of code into your "&lt;head&gt; &lt;/head&gt;" area. You can find more information about how to use icons from different providers using this link = https://www.w3schools.com/icons/</p>
-    <p>21. This is an altered "icon" element that was imported from "http://www.w3.org/2000/svg". =&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="width: 55px;height: 55px;background: var(--bs-dark);color: var(--bs-light);box-shadow: 0px 0px 10px 5px var(--bs-blue);filter: contrast(120%) saturate(160%);">
+    <p>21. This is an altered "icon" element that was imported from "http://www.w3.org/2000/svg" =&nbsp; &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="width: 55px;height: 55px;background: var(--bs-dark);color: var(--bs-light);box-shadow: 0px 0px 10px 5px var(--bs-blue);filter: contrast(120%) saturate(160%);">
             <path d="M12 17C14.2091 17 16 15.2091 16 13H8C8 15.2091 9.79086 17 12 17Z" fill="currentColor"></path>
             <path d="M10 10C10 10.5523 9.55228 11 9 11C8.44772 11 8 10.5523 8 10C8 9.44772 8.44772 9 9 9C9.55228 9 10 9.44772 10 10Z" fill="currentColor"></path>
             <path d="M15 11C15.5523 11 16 10.5523 16 10C16 9.44772 15.5523 9 15 9C14.4477 9 14 9.44772 14 10C14 10.5523 14.4477 11 15 11Z" fill="currentColor"></path>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z" fill="currentColor"></path>
         </svg><br></p>
-    <p>22. This is a default "carousel" element.&nbsp; =&nbsp; &nbsp;<br></p>
+    <p>22. This is a "default carousel" element&nbsp; =<br></p>
     <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="width: 277.333px;">
         <div class="carousel-inner">
             <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/HTML5%20Logo.png" alt="Slide Image"></div>
@@ -57,6 +57,16 @@
             <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
         </ol>
     </div>
+    <p>23. This is a "default figure" element. This element is used for embedding illustrations into articles, and for grouping "image" and "figcaption" elements together. =<br></p>
+    <figure class="figure"><img class="img-fluid figure-img" src="assets/img/HTML5%20Figure%20Element.jpg">
+        <figcaption class="figure-caption">24. This is a "default figcaption" element. This element is used inside a "figure" element to give images a caption.</figcaption>
+    </figure>
+    <p>25. This is a default/no-style/barebones "bootstrap button" component, demonstrating a clickable UI/user-interface which can be used to give your website functionality =&nbsp;<button type="button">Button</button><br></p>
+    <p>26. This is a highly altered "bootstrap button" component with a primary style, demonstrating a clickable UI/user-interface which can be used to give your website functionality =&nbsp;<a class="btn btn-primary font-monospace link-danger border rounded-circle border-danger shadow" role="button" href="assets/img/Don%27t%20Click%20Me%20Button%20Easter%20Egg.jpg">Don't Click Me</a><br></p>
+    <p>27. This is a default/no-style/barebones "bootstrap split button" component, demonstrating a clickable UI/user-interface which can be used to give your website functionality. This "bootstrap split button" also has a second button which is used to trigger the dropdown menu. =&nbsp;
+    <div class="btn-group dropdown"><button type="button">Button </button><button class="dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" type="button"></button>
+        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+    </div><br></p>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
