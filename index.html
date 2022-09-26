@@ -83,92 +83,277 @@
     </p>
     <p>32. This is a "default bootstrap dropdown" component. This component is used to display a dropdown menu by clicking the dropdown button. =</p>
     <div class="dropdown"><button class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">32. Dropdown </button>
-        <div class="dropdown-menu"><a class="dropdown-item" href="#">32. First Item</a><a class="dropdown-item" href="#">32. Second Item</a><a class="dropdown-item" href="#">32. Third Item</a></div>
+        <div class="dropdown-menu"><a class="dropdown-item" href="#">32i. First Item</a><a class="dropdown-item" href="#">32ii. Second Item</a><a class="dropdown-item" href="#">32iii. Third Item</a></div>
     </div>
     <p>33. This is a "default link / &lt;a&gt;" element. This element is used to link to other pages and websites =&nbsp;<a href="https://www.w3.org/Provider/Style/dummy.html">33. W3 Example Link</a></p>
     <p>34. This is an altered "link / &lt;a&gt;" element. This element is used to link to other pages and websites =&nbsp;<a class="text-nowrap link-info bg-dark border rounded-0 shadow" href="https://www.w3.org/Provider/Style/dummy.html" style="font-size: 22px;letter-spacing: 1px;font-family: Roboto, sans-serif;font-style: italic;font-weight: bold;filter: contrast(200%) saturate(135%);padding: 6px;line-height: 42px;">34. W3 Example Link</a></p>
     <p>35. Underneath these paragraphs is a "default bootstrap row" component, with two column pictures to show how rows and columns are used together. The "bootstrap row" is essential within the bootstrap grid system to carry the column class. It's used for horizontal partition in the container class of the web application. The "bootstrap row" component is utilized to form a horizontal layout to contain the column or columns on the website/page. It's divided space, and makes columns using col class in the bootstrap grid system.<br></p>
-    <p>35. First Row underneath this "&lt;p&gt; &lt;/p&gt;", with two "bootstrap column"&nbsp;elements which are represented by using two pictures of the word column =<br></p>
+    <p>35. First Row underneath this "&lt;p&gt; &lt;/p&gt;", with one "bootstrap column"&nbsp;element which is represented by using one picture of the word column =<br></p>
     <div class="row">
-        <div class="col"><img src="assets/img/SMALL%20COLUMN.png"></div>
         <div class="col"><img src="assets/img/SMALL%20COLUMN.png"></div>
     </div>
-    <p><br>36. Underneath these paragraphs is an altered "bootstrap row" component, with multiple column pictures to show how rows and columns are used together. This altered "bootstrap row" will also demonstrate how to break up "bootstrap columns" into multiple lines.<br></p>
-    <p>36. Second Row underneath this "&lt;p&gt; &lt;/p&gt;", with three "bootstrap column" elements which are represented by using three pictures of the word column. In addition, this single row will demonstrate breaking up "bootstrap columns" into multiple lines, by NOT USING the "bootstrap row" component. Don't worry I labeled each code area/moment that stacks/separates the pictures by NOT USING the "bootstrap row" component. =<br></p>
+    <p><br>36. Underneath these paragraphs is an altered "bootstrap row" component, with multiple column pictures to show how rows and columns are used together. This altered "bootstrap row" will also demonstrate how to break up "bootstrap columns" into multiple "bootstrap rows".<br></p>
+    <p>36i. Second Row underneath this "&lt;p&gt; &lt;/p&gt;", with three "bootstrap column" elements which are represented by using three pictures of the word column. =<br></p>
     <div class="row">
         <div class="col"><img src="assets/img/SMALL%20COLUMN.png">
-            <p>36. Underneath this "&lt;p&gt; &lt;/p&gt;" is the stacker/separator and it looks like this = &lt;div class="w-100"&gt;&lt;/div&gt;</p>
-            <div class="w-100"></div><img src="assets/img/SMALL%20COLUMN.png">
-            <p>36. Underneath this "&lt;p&gt; &lt;/p&gt;" is the stacker/separator and it looks like this = &lt;div class="w-100"&gt;&lt;/div&gt;</p>
-            <div class="w-100"></div><img src="assets/img/SMALL%20COLUMN.png">
-            <p><br>37. This is a "default bootstrap tabs" component. Every "tab" comes with a "Tab Pane" that is displayed when the tab is active. =&nbsp;</p>
-            <div>
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">37i. Tab 1</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">37ii. Tab 2</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">37iii. Tab 3</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active" role="tabpanel" id="tab-1">
-                        <p>37i. Content for tab 1</p>
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="tab-2">
-                        <p>37ii. Content for tab 2</p>
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="tab-3">
-                        <p>37iii. Content for tab 3</p>
-                    </div>
+            <p>36i. This is a -&gt; div class="col"</p>
+        </div>
+        <div class="col"><img src="assets/img/SMALL%20COLUMN.png">
+            <p>36i. This is a -&gt; div class="col"</p>
+        </div>
+    </div>
+    <p><br>37. This is a "default bootstrap tabs" component. Every "tab" comes with a "Tab Pane" that is displayed when the tab is active. =&nbsp;</p>
+    <div>
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">37i. Tab 1</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">37ii. Tab 2</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">37iii. Tab 3</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" role="tabpanel" id="tab-1">
+                <p>37i. Content for tab 1</p>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="tab-2">
+                <p>37ii. Content for tab 2</p>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="tab-3">
+                <p>37iii. Content for tab 3</p>
+            </div>
+        </div>
+    </div>
+    <p>38. This is a "default bootstrap accordion" component. This component allows content to be displayed in vertical groups. Only one group is expanded at a time, and usually this component is used to organize FAQ pages. =&nbsp;</p>
+    <div class="accordion" role="tablist" id="accordion-1">
+        <div class="accordion-item">
+            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">38i. First Accordion</button></h2>
+            <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                <div class="accordion-body">
+                    <p class="mb-0">38i. Don't open the "38ii. Second Accordion"!</p>
                 </div>
             </div>
-            <p>38. This is a "default bootstrap accordion" component. This component allows content to be displayed in vertical groups. Only one group is expanded at a time, and usually this component is used to organize FAQ pages. =&nbsp;</p>
-            <div class="accordion" role="tablist" id="accordion-1">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">38i. First Accordion</button></h2>
-                    <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <p class="mb-0">38i. Don't open the "38. Second Accordion"!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">38ii. Second Accordion</button></h2>
-                    <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <p class="mb-0">38ii. DO NOT OPEN THE "38. Third Accordion"!!!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">38iii. Third Accordion</button></h2>
-                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <p class="mb-0">38iii. You wanna hear a joke, that's related to what you did??? What did the mother turkey say to her disobedient children? If your father could see you now, he'd turn over in his gravy!<br></p>
-                        </div>
-                    </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">38ii. Second Accordion</button></h2>
+            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                <div class="accordion-body">
+                    <p class="mb-0">38ii. DO NOT OPEN THE "38iii. Third Accordion"!!!!!</p>
                 </div>
             </div>
-            <p><br>39. This is a "default bootstrap collapse" component. This component uses a "button" and a "div". When the button is pressed, the div becomes shown, then hidden when clicked on again. =</p>
-            <div><a class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button">39. Collapsible Button</a>
-                <div class="collapse" id="collapse-1">
-                    <p>39. This is a collapsible button</p>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">38iii. Third Accordion</button></h2>
+            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                <div class="accordion-body">
+                    <p class="mb-0">38iii. You wanna hear a joke, that's related to what you did??? What did the mother turkey say to her disobedient children? If your father could see you now, he'd turn over in his gravy!<br></p>
                 </div>
             </div>
-            <p><br>40. This is a "default stack" flexbox based component. Vertical and horizontal layouts with optional gaps between the elements in the layouts, are quickly created using this component. In addition this is a flexbox component, meaning the size of the element(s) changes depending on the size of the device or the zoom level of the device. =</p>
-            <div class="vstack"><img src="assets/img/ROW.png"></div>
-            <p><br>41. This is a "default bootstrap list group" component. A group of elements can be displayed using this component, and this component supports various color styles. =</p>
-            <ul class="list-group">
-                <li class="list-group-item"><span>41i. List Group Item 1</span></li>
-                <li class="list-group-item"><span>41ii. List Group Item 2</span></li>
-                <li class="list-group-item"><span>41iii. List Group Item 3</span></li>
-            </ul>
-            <p><br>42. This is a couple of different "list" elements. Their are two types of lists. One list which is in an arranged fashion (alphabetical, numerical/numbered, etc) is an "ordered list or &lt;ol&gt;". The second list is in an unarranged fashion (bulleted like dots, circles, etc) is an "unordered list or &lt;ul&gt;". Both "unordered list / &lt;ul&gt;" and "ordered list / &lt;ol&gt;" require a "list / &lt;li&gt;&lt;/li&gt;" tag in between the &lt;ol&gt;&lt;/ol&gt; or &lt;ul&gt;&lt;/ul&gt; tags. If you need more CSS-Styling/style on the list elements, W3Schools provides more information at this link (&nbsp;https://www.w3schools.com/css/css_list.asp ) =</p>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
+        </div>
+    </div>
+    <p><br>39. This is a "default bootstrap collapse" component. This component uses a "button" and a "div". When the button is pressed, the div becomes shown, then hidden when clicked on again. =</p>
+    <div><a class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button">39. Collapsible Button</a>
+        <div class="collapse" id="collapse-1">
+            <p>39. This is a collapsible button</p>
+        </div>
+    </div>
+    <p><br>40. This is a "default stack" flexbox based component. Vertical and horizontal layouts with optional gaps between the elements in the layouts, are quickly created using this component. In addition this is a flexbox component, meaning the size of the element(s) changes depending on the size of the device or the zoom level of the device. =</p>
+    <div class="vstack"><img src="assets/img/ROW.png"></div>
+    <p><br>41. This is a "default bootstrap list group" component. A group of elements can be displayed using this component, and this component supports various color styles. =</p>
+    <ul class="list-group">
+        <li class="list-group-item"><span>41i. List Group Item 1</span></li>
+        <li class="list-group-item"><span>41ii. List Group Item 2</span></li>
+        <li class="list-group-item"><span>41iii. List Group Item 3</span></li>
+    </ul>
+    <p><br>42. This is a couple of different "list" elements. Their are two types of lists. One list which is in an arranged fashion (alphabetical, numerical/numbered, etc) is an "ordered list or &lt;ol&gt;". The second list is in an unarranged fashion (bulleted like dots, circles, etc) is an "unordered list or &lt;ul&gt;". Both "unordered list / &lt;ul&gt;" and "ordered list / &lt;ol&gt;" require a "list / &lt;li&gt;&lt;/li&gt;" tag in between the &lt;ol&gt;&lt;/ol&gt; or &lt;ul&gt;&lt;/ul&gt; tags. If you need more CSS-Styling/style on the list elements, W3Schools provides more information at this link (&nbsp;https://www.w3schools.com/css/css_list.asp ) =</p>
+    <ul>
+        <li>42i. This</li>
+        <li>42i. is</li>
+        <li>42i. an</li>
+        <li>42i. unordered</li>
+        <li>42i. list</li>
+    </ul>
+    <ol>
+        <li>42ii. This</li>
+        <li>42ii. is</li>
+        <li>42ii. an</li>
+        <li>42ii. ordered</li>
+        <li>42ii. list</li>
+        <li>42ii. with</li>
+        <li>42ii. numbers</li>
+    </ol>
+    <ol reversed="">
+        <li>42iii. This</li>
+        <li>42iii. is</li>
+        <li>42iii. an</li>
+        <li>42iii. ordered</li>
+        <li>42iii. list</li>
+        <li>42iii. with</li>
+        <li>42iii. numbers</li>
+        <li>42iii. that's in reverse order</li>
+    </ol>
+    <ol type="a">
+        <li>42iv. This</li>
+        <li>42iv. is</li>
+        <li>42iv. an</li>
+        <li>42iv. ordered</li>
+        <li>42iv. list</li>
+        <li>42iv. with</li>
+        <li>42iv. lowercase-letters</li>
+    </ol>
+    <ol type="A">
+        <li>42v. This</li>
+        <li>42v. is</li>
+        <li>42v. an</li>
+        <li>42v. ordered</li>
+        <li>42v. list</li>
+        <li>42v. with</li>
+        <li>42v. uppercase-letters</li>
+    </ol>
+    <ol type="i">
+        <li>42vi. This</li>
+        <li>42vi. is</li>
+        <li>42vi. an</li>
+        <li>42vi. ordered</li>
+        <li>42vi. list</li>
+        <li>42vi. with</li>
+        <li>42vi. lowercase roman numerals</li>
+    </ol>
+    <ol type="I">
+        <li>42vii. This</li>
+        <li>42vii. is</li>
+        <li>42vii. an</li>
+        <li>42vii. ordered</li>
+        <li>42vii. list</li>
+        <li>42vii. with</li>
+        <li>42vii. uppercase roman numerals</li>
+    </ol>
+    <ul class="list-unstyled">
+        <li>42viii. This</li>
+        <li>42viii. is</li>
+        <li>42viii. an</li>
+        <li>42viii. unordered</li>
+        <li>42viii. list</li>
+        <li>42viii. that is "list-unstyled" or unstyled</li>
+    </ul>
+    <ul class="list-inline">
+        <li class="list-inline-item">42ix. This</li>
+        <li class="list-inline-item">42ix. is</li>
+        <li class="list-inline-item">42ix. an</li>
+        <li class="list-inline-item">42ix. unordered</li>
+        <li class="list-inline-item">42ix. list</li>
+        <li class="list-inline-item">42ix. that is "list-inline" or inline</li>
+    </ul>
+    <p>43. This is a "default bootstrap 5 card" container. These "card" containers can include elements like headers, footers, any type of content can be placed inside the "card", the contextual background colors can be changed, and etc. =</p>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">43i. Title / Heading</h4>
+            <h6 class="text-muted card-subtitle mb-2">43ii. Subtitle / Smaller Heading</h6>
+            <p class="card-text">43iii. This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".<br><br>-&gt; More information about classes from W3Schools (Even more information can be found in the first/left link below which takes you to W3Schools website "https://www.w3schools.com/html/html_classes.asp" showing a demonstration of this concept, you just have to click on it) = A class attribute is used to specify a class for an HTML element. Multiple HTML elements can share the same class.</p><a class="card-link" href="https://www.w3schools.com/html/html_classes.asp">43iv. Link</a><a class="card-link" href="#">43iv. Link</a>
+        </div>
+    </div>
+    <p>44. This is a "default bootstrap 5 panel". This is a variation of the Bootstrap 5 "card" container. These "panels" can include elements like headers, footers, and various color styles. =</p>
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">44i. Title / Heading</h5>
+        </div>
+        <div class="card-body">
+            <p class="card-text">44ii. This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".</p>
+        </div>
+    </div>
+    <p>45. This is a "default bootstrap 5 thumbnail". This is a variation of the Bootstrap 5 "card" container. These "panels" can include elements like a header image, title, description, and buttons or links. =</p>
+    <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/SMALL%20HEADER%20IMAGE.png">
+        <div class="card-body">
+            <h4 class="card-title">45i. Title / Heading</h4>
+            <p class="card-text">45ii. This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".</p><button class="btn btn-primary" type="button">45iii. Button</button>
+        </div>
+    </div>
+    <div class="card"><img class="card-img w-100 d-block" height="235" src="assets/img/Embossed%20Business%20Card%20Texture.jpg">
+        <div class="card-img-overlay">
+            <h4>46i. Title / Heading</h4>
+            <p>46ii. This is a "default bootstrap 5 card" container with a background image that takes the full width and height of the card. Technically its an altered "bootstrap 5 card" since I changed the height of the image to be "235", but I believe that's only the styling/HTML part of the code (ignore quotation marks) = " &lt;img class="card-img w-100 d-block" height="235" src="assets/img/Embossed%20Business%20Card%20Texture.jpg"&gt; ", so lets just agree to disagree. These "card" containers can include elements like headers, footers, any type of content can be placed inside the "card", the contextual background colors can be changed, and etc.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item"><a class="nav-link active" href="#">47i. First Item</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">47ii. Second Item</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">47iii. Third Item</a></li>
             </ul>
         </div>
+        <div class="card-body">
+            <h4 class="card-title">47i. Title / Heading</h4>
+            <p class="card-text">47ii.&nbsp;This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".</p><button class="btn btn-primary" type="button">47iii. Button</button>
+        </div>
+    </div>
+    <div class="card-group">
+        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/SMALL%20IMAGE.jpg">
+            <div class="card-body">
+                <h4 class="card-title">48i. First Title / Header</h4>
+                <p class="card-text">48ii. This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".</p><button class="btn btn-primary" type="button">48iii. Button</button>
+            </div>
+        </div>
+        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/SMALL%20IMAGE.jpg">
+            <div class="card-body">
+                <h4 class="card-title">48i. Second Title / Header</h4>
+                <p class="card-text">48ii. This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".</p><button class="btn btn-primary" type="button">48iii. Button</button>
+            </div>
+        </div>
+        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/SMALL%20IMAGE.jpg">
+            <div class="card-body">
+                <h4 class="card-title">48i. Third Title / Header</h4>
+                <p class="card-text">48ii. This is a "paragraph" HTML element using a "class" attribute that is titled "card-text".</p><button class="btn btn-primary" type="button">48iii. Button</button>
+            </div>
+        </div>
+    </div>
+    <p><br>49.&nbsp;This is a "default Nav Bar or Navbar Bootstrap component" which is mainly used for building website navigation menus. This "Navbar" is fully responsive and allows web developers to take advantage of it for various uses. Most web developers use a "Navbar" to either scroll a user all the way down the webpage to what they clicked on the "Navbar", or to take the user to another part of the website by making the "Navbar" items/elements have a link to the right of the hashtag &lt; href="#" &gt;, so when one of the&nbsp;"Navbar" items/elements is clicked the web browser automatically redirects itself to the other part of the website which is on another webpage. In addition, "Navbar" items can be active or inactive, which doesn't change the functionality of the item but rather its appearance. A good way to show a user that they are on the homepage, is to make the first "Navbar" item active, and the other ones inactive on that specific webpage.<br><br>-&gt; Now the "Navbar" items on the bottom here will take you to W3School's website if you would like to learn more about "Bootstrap Navbars" =</p>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#">49i. Brand</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="https://www.w3schools.com/bootstrap/bootstrap_navbar.asp">49ii. First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.w3schools.com/bootstrap/bootstrap_navbar.asp">49iii. Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.w3schools.com/bootstrap/bootstrap_navbar.asp">49iv. Third Item</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <p><br>50.&nbsp;This is a "default Nav Bootstrap component" which is mainly used for building navigations, tabs, and more =</p>
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link" href="#">50i. First Item</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">50ii. Second Item</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">50iii. Third Item</a></li>
+    </ul>
+    <p><br>51.&nbsp;This is a "default Pagination Bootstrap Component" which displays a list of page numbers for pagination purposes =</p>
+    <nav>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+        </ul>
+    </nav>
+    <p><br>52.&nbsp;This is a "default Table HTML element" =</p>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>52i. Column 1</th>
+                    <th>52ii. Column 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>52iii. Cell 1</td>
+                    <td>52iv. Cell 2</td>
+                </tr>
+                <tr>
+                    <td>52v. Cell 3</td>
+                    <td>52vi. Cell 4</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
